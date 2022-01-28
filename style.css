@@ -1,25 +1,49 @@
-header{
+
+body{
+    margin:0%;
+}
+
+
+.header{
     display: flex;
     background-color: #1F2937;
+    height: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    align-items: baseline;
+    padding-top: 0%;
 }
-footer{
+
+ul{
     display: flex;
-    background-color: #1F2937;
+    gap: 50px;
+    font-size: 18px;
+    color: #E5E7EB;
+    
 }
+.logo{
+    display: flex;
+
+}
+
+
+
+
+
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    gap: 50px;
 }
-.links{
-    font-size: 18px;
-    color: #E5E7EB;
-}
+    
 
-.website{
+
+.Awesome{
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    background-color: #F9FAF8;
+    display: flex;
 }
 
 .buttoon{
@@ -30,6 +54,7 @@ footer{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
 }
 
 .third{
@@ -37,5 +62,14 @@ footer{
     font-size: 36px;
     font-weight: light-italic;
     color: #1F2937;
+    display: flex;
 }
 
+.image{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+}
