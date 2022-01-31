@@ -97,4 +97,71 @@ ul li p{
     text-align: center;
 }
 
-/* */
+/*fifth area */
+.words{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.words {
+    color: turquoise;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+}
+blockquote{
+    text-align: right;
+    color: violet;
+}
+
+
+/*last area*/
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:200px;
+    background-color: #3882F6;
+    
+    
+}
+.left, .right{
+    background-color: rgb(194, 172, 194);
+    
+}
+
+.left h4{
+    font-weight: bolder;
+    color: #1F2937
+}
+.right{
+    align-items: flex-start;
+}
+.buttoon{
+    padding: 15px 30px;
+    background: #3882F6;
+    color: #F9FAF8;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+/*footer area*/
+
+footer{
+    display: flex;
+    height: 50px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
