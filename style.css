@@ -100,55 +100,53 @@ ul li p{
 /*fifth area */
 .words{
     display: flex;
-    flex-direction: column;
-
-}
-
-.words {
-    color: turquoise;
-    text-align: center;
+    color: #1F2937;
     justify-content: center;
-    height: 200px;
     align-items: center;
     background-color: #E5E7EB;
     font-size: 36px;
+    text-align: center;
+    height: 300px;
     font-style: italic;
 }
-blockquote{
-    text-align: right;
-    color: violet;
-}
+
 
 
 /*last area*/
 
 .last{
     display: flex;
-    justify-content: space-evenly;
+    height:300px;
+    background-color: white;
     align-items: center;
-    height:200px;
-    background-color: #3882F6;
-    
-    
+    justify-content: center;
+
 }
-.left, .right{
-    background-color: rgb(194, 172, 194);
     
+
+.left, .right{
+    background-color: #3882F6;
+    height: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 50px 50px;
 }
 
 .left h4{
     font-weight: bolder;
-    color: #1F2937
+    color: #1F2937;
+    font-size: 25px;
 }
-.right{
-    align-items: flex-start;
-}
+
 .buttoon{
     padding: 15px 30px;
     background: #3882F6;
     color: #F9FAF8;
     outline: none;
-    border: none;
+    border: 1px solid white;
     font-weight: bold;
     border-radius: 50px;
     text-transform: uppercase;
@@ -164,4 +162,5 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
+    
 }
